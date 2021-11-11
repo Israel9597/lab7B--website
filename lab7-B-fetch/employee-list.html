@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="empList.js"></script>
+    <style>
+      .container {
+        width: 90%;
+        margin-top: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mb-3">
+      <div
+        type="email"
+        class="form-control"
+        style="
+          width: 40%;
+          margin-left: 8%;
+          margin-top: 5%;
+          height: 50px;
+          padding-left: 15%;
+          border-radius: 15px;
+          background-color: silver;
+        "
+      >
+        <h4>Employees list</h4>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row" style="margin-bottom: 2%">
+        <div class="col-3" id="emp1">
+          <img id="emp1Pic" src="" />
+        </div>
+
+        <div class="col-3">
+          <div id="emp-name1" style="font-weight: bold"></div>
+          <div id="emp-phone1"></div>
+          <div id="emp-email1"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 2%">
+        <div class="col-3" id="emp2">
+          <img id="emp2Pic" src="" />
+        </div>
+
+        <div class="col-3">
+          <div id="emp-name2" style="font-weight: bold"></div>
+          <div id="emp-phone2"></div>
+          <div id="emp-email2"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 2%">
+        <div class="col-3" id="emp3">
+          <img id="emp3Pic" src="" />
+        </div>
+
+        <div class="col-3">
+          <div id="emp-name3" style="font-weight: bold"></div>
+          <div id="emp-phone3"></div>
+          <div id="emp-email3"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 2%">
+        <div class="col-3" id="emp4">
+          <img id="emp4Pic" src="" />
+        </div>
+
+        <div class="col-3">
+          <div id="emp-name4" style="font-weight: bold"></div>
+          <div id="emp-phone4"></div>
+          <div id="emp-email4"></div>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom: 2%">
+        <div class="col-3" id="emp5">
+          <img id="emp5Pic" src="" />
+        </div>
+
+        <div class="col-3">
+          <div id="emp-name5" style="font-weight: bold"></div>
+          <div id="emp-phone5"></div>
+          <div id="emp-email5"></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button
+        id="refBtn"
+        type="button"
+        class="btn btn-success"
+        style="
+          margin-bottom: 10%;
+          height: 60px;
+          width: 20%;
+          border-radius: 20px;
+          margin-left: 20%;
+        "
+      >
+        Refresh
+      </button>
+    </div>
+  </body>
+</html>
