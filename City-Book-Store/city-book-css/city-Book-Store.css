@@ -1,0 +1,147 @@
+.mainCont {
+  background-image: url("/City-Book-Store/city-book-images/Book-Store-2.jpg");
+  background-size: 1380px 900px;
+  background-repeat: no-repeat;
+}
+
+#book1 {
+  color: white;
+  margin-top: 1%;
+  margin-left: -8%;
+  font-size: 18px;
+  padding-bottom: 0.8%;
+  border-bottom: 0.5px solid whitesmoke;
+}
+
+.line {
+  border-right: 1px solid orange;
+}
+
+#banner {
+  height: 120px;
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 2%;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+#top {
+  position: relative;
+  bottom: 50px;
+  left: 580px;
+  font-size: 30px;
+  color: rgba(255, 230, 0, 0.904);
+  opacity: 80%;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 3%;
+  height: 60px;
+  background-color: black;
+  opacity: 60%;
+  color: ghostwhite;
+}
+
+#date {
+  margin-right: -50%;
+}
+
+#article {
+  margin-left: 10%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  color: ghostwhite;
+}
+
+#article2 {
+  margin-left: 10%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  color: ghostwhite;
+}
+
+#article3 {
+  margin-left: 10%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  color: ghostwhite;
+  margin-top: 2%;
+}
+
+.aboutCont {
+  background-image: url("/City-Book-Store/city-book-images/books-library-shelf-bookshelves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 7%;
+}
+#abtHead {
+  margin-left: 7%;
+  margin-right: 40%;
+}
+
+h4 {
+  border-bottom: 1px solid whitesmoke;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 10%;
+  padding: 1%;
+  color: gold;
+  opacity: 80%;
+}
+
+#article2 {
+  margin-top: 1%;
+  margin-right: 20%;
+  opacity: 200%;
+}
+.footer2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20%;
+  margin-right: -7.4%;
+  margin-left: 0%;
+  height: 60px;
+  background-color: black;
+  opacity: 60%;
+  color: ghostwhite;
+  padding-left: 2%;
+}
+#date {
+  margin-left: 30%;
+}
+
+.catalog {
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  background-color: black;
+}
+
+#table {
+  margin-top: 3%;
+  color: black;
+  background: whitesmoke;
+  border-style: 1px solid gray;
+  margin-left: 30px;
+  opacity: 80%;
+}
+
+.table1 {
+  width: 85%;
+}
+
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding-top: 3%;
+}
+
+.bookRegister {
+  background-image: url("/City-Book-Store/city-book-images/books-library-shelf-bookshelves.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  color: white;
+}
